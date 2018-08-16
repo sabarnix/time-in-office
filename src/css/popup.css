@@ -1,0 +1,21 @@
+.container {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #424242;
+}
+
+.container .heading {
+    font-weight: normal;
+}
+
+.container .time-elapsed {
+    font-size: 60px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
