@@ -1,0 +1,7 @@
+{
+    "github": {
+      "release": true,
+      "assets": "tio.crx"
+    },
+    "buildCommand": "pack-extension"
+  }

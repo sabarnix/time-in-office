@@ -3,3 +3,4 @@ build
 build.*
 secrets.*.js
 .vscode/*
+tio.crx
