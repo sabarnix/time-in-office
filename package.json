@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node utils/build.js",
     "start": "node utils/webserver.js",
-    "release": "release-it",
+    "release": "run.env release-it",
     "pack-extension": "crx pack build -p key.pem -o tio.crx"
   },
   "devDependencies": {
@@ -17,6 +17,7 @@
     "copy-webpack-plugin": "^4.2.0",
     "crx": "^3.2.1",
     "css-loader": "^0.25.0",
+    "dotenv": "^6.0.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
@@ -25,6 +26,7 @@
     "html-loader": "^0.4.5",
     "html-webpack-plugin": "2.24.1",
     "release-it": "^7.5.0",
+    "run.env": "^1.0.2",
     "style-loader": "^0.13.0",
     "webpack": "2.2.1",
     "webpack-dev-server": "^2.3.0",

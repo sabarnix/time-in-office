@@ -3,5 +3,5 @@
       "release": true,
       "assets": "tio.crx"
     },
-    "buildCommand": "pack-extension"
+    "buildCommand": "npm run pack-extension"
   }

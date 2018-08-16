@@ -4,3 +4,4 @@ build.*
 secrets.*.js
 .vscode/*
 tio.crx
+.env
