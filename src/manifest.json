@@ -17,6 +17,7 @@
     "storage",
     "*://tp.internal.directi.com/*",
     "notifications",
-    "alarms"
+    "alarms",
+    "idle"
   ]
 }
