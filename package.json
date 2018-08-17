@@ -1,6 +1,6 @@
 {
   "name": "time-in-office",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tapestry time in office",
   "scripts": {
     "build": "node utils/build.js",
