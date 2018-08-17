@@ -179,6 +179,11 @@ class TimeInOffice {
   handleInvalidData(e) {
     console.log(e);
   }
+
+  destroy() {
+    chrome.storage.sync.remove(['timeManager']);
+    chrome.alarms.clearAll();
+  }
 }
 
 
@@ -192,3 +197,10 @@ chrome.runtime.onInstalled.addListener(({ reason }) => {
 const tio = new TimeInOffice();
 
 tio.init();
+chrome.idle.onStateChanged.addListener((state) => {
+  if (state !== 'active') {
+    tio.destroy();
+  } else {
+    tio.init();
+  }
+});
